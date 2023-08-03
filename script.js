@@ -84,14 +84,6 @@ function reset() {
   location.reload();
 }
 
-const logopic = document.getElementById("logopic");
-logopic.addEventListener("mouseover", () => {
-  logopic.style.cursor = "pointer";
-});
-logopic.addEventListener("click", () => {
-  location.reload();
-});
-
 window.addEventListener("load", () => {
   document.addEventListener("contextmenu", (e) => e.preventDefault(), false);
   document.addEventListener("keydown", (e) => {
