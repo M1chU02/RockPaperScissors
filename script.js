@@ -33,8 +33,8 @@ function game(choice) {
   const playerdiv = document.getElementById("player");
   const computerdiv = document.getElementById("computer");
   let compchoice = computerChoice();
-  playerdiv.innerHTML = `<img width="58%" height="50%" src=/img/${choice}.png />`;
-  computerdiv.innerHTML = `<img style="transform: scaleX(-1);" width="58%" height="50%" src=/img/${compchoice}.png />`;
+  playerdiv.innerHTML = `<img class="gamepic" src=/img/${choice}.png />`;
+  computerdiv.innerHTML = `<img class="gamepic" style="transform: scaleX(-1);" src=/img/${compchoice}.png />`;
   score(choice, compchoice);
 }
 
