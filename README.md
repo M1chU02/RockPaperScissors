@@ -28,6 +28,9 @@ We have plans to enhance the Rock Paper Scissors Game in the future:
 
 Stay tuned for updates! 🚀
 
+## License
+Rock Paper Scissors Game 1.0 is licensed under the [MIT License](https://opensource.org/license/mit/). You are free to use, modify, and distribute it as you see fit.
+
 ---
 
 Have fun and challenge your decision-making skills with Rock Paper Scissors Game 1.0! 🎮🤞
